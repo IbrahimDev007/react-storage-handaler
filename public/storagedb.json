@@ -1,0 +1,44 @@
+[
+    {
+      "id": "641f165b5cb9de2ae8630121",
+      "index": 0,
+      "picture": "http://placehold.it/32x32",
+      "age": 35,
+      "email": "melvabooth@geekology.com"
+    },
+    {
+      "id": "641f165b8bc4a632804714e1",
+      "index": 1,
+      "picture": "http://placehold.it/32x32",
+      "age": 38,
+      "email": "melvabooth@geekology.com"
+    },
+    {
+      "id": "641f165be7d1bd2b4861ae30",
+      "index": 2,
+      "picture": "http://placehold.it/32x32",
+      "age": 31,
+      "email": "melvabooth@geekology.com"
+    },
+    {
+      "id": "641f165bd3106c0be82f9628",
+      "index": 3,
+      "picture": "http://placehold.it/32x32",
+      "age": 21,
+      "email": "melvabooth@geekology.com"
+    },
+    {
+      "id": "641f165b3b28a5d1bebe2823",
+      "index": 4,
+      "picture": "http://placehold.it/32x32",
+      "age": 27,
+      "email": "melvabooth@geekology.com"
+    },
+    {
+      "id": "641f165be0c93145b9e44b3a",
+      "index": 5,
+      "picture": "http://placehold.it/32x32",
+      "age": 27,
+      "email": "melvabooth@geekology.com"
+    }
+  ]

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState,useEffect } from 'react'
 import Display from '../../Display'
 
 //import with relative path
@@ -12,21 +12,21 @@ export default function Cloths() {
 //     {id:3,name:'shocks',price:290},
 //     {id:4,name:'t-shirt',price:690}
 //  ]
-// useEffect(() => {
-//   fetch('/public/storagedb.json')
+const [data, setData] = useState([]);
+useEffect(() => {
+  fetch('/storagedb.json')
+.then(res=>res.json())
+.then(datas=>setData(datas))
 
-//   return () => {
-//     second
-//   }
-// }, [third])
+}, [])
 
   return (
     <div>
         <h1>cloths</h1>
   <ul>
     {
-  Garments.map((item,index)=>
-<Display name={item.name} price={item.price} id={item.id} key={index}/>  
+ data && data.map((item,index)=>
+<Display name={item.name} price={item.age} id={item.id} key={index}/>  
   )
     }
   </ul>
