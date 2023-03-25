@@ -1,14 +1,24 @@
-import React from 'react'
-import Display from '../../Display'//import with relative path
+import React, { useEffect } from 'react'
+import Display from '../../Display'
+
+//import with relative path
 
 
 export default function Cloths() {
- const Garments=[
-    {id:1,name:'shirt',price:1290},
-    {id:2,name:'pant',price:1330},
-    {id:3,name:'shocks',price:290},
-    {id:4,name:'t-shirt',price:690}
- ]
+    //use db as a array
+//  const Garments=[
+//     {id:1,name:'shirt',price:1290},
+//     {id:2,name:'pant',price:1330},
+//     {id:3,name:'shocks',price:290},
+//     {id:4,name:'t-shirt',price:690}
+//  ]
+// useEffect(() => {
+//   fetch('/public/storagedb.json')
+
+//   return () => {
+//     second
+//   }
+// }, [third])
 
   return (
     <div>
